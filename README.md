@@ -9,8 +9,8 @@ AWS EC2 Instance Setup || Docker Installation || SonarQube Integration with Azur
 2. Install Docker on an Ubuntu EC2 instance on AWS
    Update the package list: Run the following command to update the package list:
    - sudo su
-   - apt-get update
-   - apt-get upgrade
+   - apt-get update -y
+   - apt-get upgrade -y
 
 3. Run the following command to install Docker
    - apt-get install -y docker.io
