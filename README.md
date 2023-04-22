@@ -18,7 +18,7 @@ AWS EC2 Instance Setup || Docker Installation || SonarQube Integration with Azur
 
 4. Verify the installation: Run the following command to verify that Docker is installed correctly:
    - docker --version
-    This command should display the version of Docker that was installed.
+   - This command should display the version of Docker that was installed.
 
 5. To setup SonarQube on Docker, you can follow these steps:
    Pull the SonarQube Docker image by running the following command in your terminal:
