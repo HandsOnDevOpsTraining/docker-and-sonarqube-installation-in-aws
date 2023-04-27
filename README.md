@@ -35,3 +35,6 @@ AWS EC2 Instance Setup || Docker Installation || SonarQube Integration with Azur
 8. Once the server is up and running, you can access the SonarQube web interface by opening a web browser and navigating to http://PUBLIC-IP-OF-EC2:9000
 
 9. By default, SonarQube requires a login. The default username is "admin" and the default password is "admin". You can change these credentials in the SonarQube web interface.
+
+10. To run docker by default during bootup, please run below command
+    - systemctl enable docker
